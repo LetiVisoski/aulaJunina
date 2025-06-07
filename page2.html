@@ -1,0 +1,31 @@
+<!-- page2.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA & GitHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Imagem da NASA</h1>
+    <img id="nasaImage" alt="Imagem do dia" style="max-width:100%" />
+    <p id="nasaDescription"></p>
+
+    <h2>Perfil GitHub</h2>
+    <input type="text" id="githubUser" placeholder="Digite o nome do usuário">
+    <button id="githubSearch">Buscar</button>
+
+    <div id="githubProfile" style="display:none">
+      <img id="avatar" style="width:100px; border-radius:50%" />
+      <h3 id="name"></h3>
+      <p id="bio"></p>
+    </div>
+
+    <a href="index.html" class="btn">Voltar</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
